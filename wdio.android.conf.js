@@ -64,13 +64,13 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        "platformName": "Android",
-        "automationName": "UiAutomator2",
-        "platformVersion": "11.0",
-        "deviceName": "Pixel_4a_API_30_ARM",
-        "appPackage": "com.android.settings",
-        "appActivity": ".Settings",
-        "autoGrantPermissions": true
+        platformName: 'Android',
+        'appium:platformVersion': '11.0',
+        'appium:deviceName': 'Pixel_4a_API_30_ARM',
+        'appium:automationName': 'UiAutomator2',
+        'appium:appPackage': 'com.android.settings',
+        'appium:appActivity': '.Settings',
+        'appium:autoGrantPermissions': true,
     }],
     //
     // ===================
